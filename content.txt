@@ -1,8 +1,8 @@
 
-PixelForge - Gaming Website
+Pixel - Gaming Website
 
 HEADER:
-- PixelForge logo
+- Pixel logo
 - Menu:
     - Home
     - About
@@ -19,13 +19,13 @@ HEADER:
 - Log-in Button
 
 HERO:
-- Welcome to PixelForge
+- Welcome to Pixel
 - The ultimate gaming hub for all things esports
 - Watch Live Button
 
 ABOUT:
 - Discover Our Passion for Gaming
-- PixelForge brings together gamers, fans, and esports enthusiasts to create the ultimate gaming community.
+- Pixel brings together gamers, fans, and esports enthusiasts to create the ultimate gaming community.
 - Join the Community Button
 
 TOURNAMENTS:
@@ -63,7 +63,7 @@ NEWSLETTER:
 - Subscribe Button
 
 FOOTER:
-- PixelForge logo
+- Pixel logo
 - Footer Menu:
     - Home
     - About

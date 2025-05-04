@@ -10,51 +10,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="navbar">
-            <h3 class="logo">PixelForge</h3>
+            <h3 class="logo">Pixel</h3>
+
+            <div class="overlay" id="nav-overlay">
+                <ul class="ul">
+                    <li class="li"><a href="#" class="a">Home</a></li>
+                    <li class="li"><a href="#" class="a">About</a></li>
+                    <li class="li"><a href="#" class="a">Tournaments</a></li>
+                    <li class="li"><a href="#" class="a">Teams</a></li>
+                    <li class="li"><a href="#" class="a">Gear</a></li>
+                    <li class="li"><a href="#" class="a">Blog</a></li>
+                    <li class="li"><a href="#" class="a">Contact</a></li>
+                </ul class="ul">
+            </div>
 
             <div class="links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Tournaments</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Gear</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="ul">
+                    <li class="li"><a href="#" class="a">Home</a></li>
+                    <li class="li"><a href="#" class="a">About</a></li>
+                    <li class="li"><a href="#" class="a">Tournaments</a></li>
+                    <li class="li"><a href="#" class="a">Teams</a></li>
+                    <li class="li"><a href="#" class="a">Gear</a></li>
+                    <li class="li"><a href="#" class="a">Blog</a></li>
+                    <li class="li"><a href="#" class="a">Contact</a></li>
                 </ul>
             </div>
 
             <div class="nav-actions">
-                <button id="nav-toggle-btn">log-in</button>
+                <button id="nav-toggle-btn">login </button>
+                <ion-icon name="log-in-outline"></ion-icon>
+            </div>
+
+            <div class="nav-toggle-btns">
+                <ion-icon name="menu-outline" id="nav-open-btn"></ion-icon>
+                <ion-icon name="close-outline" id="nav-close-btn"></ion-icon>
             </div>
         </div>
     </header>
 
     <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1>Welcome to PixelForge</h1>
-                <p>Your one-stop shop for all things gaming!</p>
-                <button id="shop-now-btn">Shop Now</button>
-            </div>
-        </section>
-
-        <section class="featured-products">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
-                <!-- Product items will be dynamically generated here -->
-            </div>
-        </section>
     </main>
 
     <script src="assests/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
