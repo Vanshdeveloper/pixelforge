@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6e34db;
+    --secondary-color: #f0a500;
+    --tertiary-color: #ff6f61;
+    --background-color: #332c50;
+    --text-color: #dddddd;
+
+    --ff-cal-sans: 'Cal Sans', sans-serif;
+    --ff-sasnation: 'Sasnation', sans-serif;
+
+    --transition-1: all .2s ease-in-out;
+
+    --polygon-1: polygon(18% 0, 100% 0, 100% 81%, 81% 100%, 0 100%, 0 18%);
+    --polygon-2: polygon(25% 0%, 100% 0, 75% 100%, 0 100%);
+}
+
+body {
+    transition: var(--transition-1);
+    font-family: '', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+header {
+    display: flex;
+}

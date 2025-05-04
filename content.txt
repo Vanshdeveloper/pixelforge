@@ -1,8 +1,8 @@
 
-GameArena - Gaming Website
+PixelForge - Gaming Website
 
 HEADER:
-- GameArena logo
+- PixelForge logo
 - Menu:
     - Home
     - About
@@ -19,13 +19,13 @@ HEADER:
 - Log-in Button
 
 HERO:
-- Welcome to GameArena
+- Welcome to PixelForge
 - The ultimate gaming hub for all things esports
 - Watch Live Button
 
 ABOUT:
 - Discover Our Passion for Gaming
-- GameArena brings together gamers, fans, and esports enthusiasts to create the ultimate gaming community.
+- PixelForge brings together gamers, fans, and esports enthusiasts to create the ultimate gaming community.
 - Join the Community Button
 
 TOURNAMENTS:
@@ -63,7 +63,7 @@ NEWSLETTER:
 - Subscribe Button
 
 FOOTER:
-- GameArena logo
+- PixelForge logo
 - Footer Menu:
     - Home
     - About
