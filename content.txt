@@ -1,0 +1,82 @@
+
+GameArena - Gaming Website
+
+HEADER:
+- GameArena logo
+- Menu:
+    - Home
+    - About
+    - Tournaments
+    - Teams
+    - Gear
+    - Blog
+    - Contact
+- Social Icons:
+    - Twitter
+    - Instagram
+    - YouTube
+- Search Icon
+- Log-in Button
+
+HERO:
+- Welcome to GameArena
+- The ultimate gaming hub for all things esports
+- Watch Live Button
+
+ABOUT:
+- Discover Our Passion for Gaming
+- GameArena brings together gamers, fans, and esports enthusiasts to create the ultimate gaming community.
+- Join the Community Button
+
+TOURNAMENTS:
+- Upcoming Gaming Tournaments
+- Join our thrilling gaming tournaments with amazing prizes and fierce competition.
+- Sign Up Now Button
+- Prize Pool: $100,000
+- Previous Winners:
+    - 1st place
+    - 2nd place
+
+GALLERY:
+- Game Highlights Image
+
+TEAMS:
+- Meet the Champions
+- Team Member Image
+- View All Teams Button
+
+GEARS:
+- Game Gear
+    - High-End Gaming Headset - $99 - Add to Cart Button
+    - Gaming Controller - $49 - Add to Cart Button
+    - Precision Gaming Mouse - $29 - Add to Cart Button
+
+BLOG:
+- Gaming News & Updates
+    - Exploring the Future of Esports: The rise of competitive gaming is changing the future of sports and entertainment.
+    - New Gaming Gear: What’s Hot? Check out the latest gaming gear that is taking the gaming world by storm.
+
+NEWSLETTER:
+- Stay Updated
+- Subscribe to our newsletter for the latest news, tournament updates, and exclusive offers!
+- Your Email Address Input Box
+- Subscribe Button
+
+FOOTER:
+- GameArena logo
+- Footer Menu:
+    - Home
+    - About
+    - Tournaments
+    - Teams
+    - Gear
+    - Blog
+    - Contact
+- Social Icons:
+    - Twitter
+    - Instagram
+    - YouTube
+- Copyright &copy; 2025 GameArena. All rights reserved.
+
+GO TO TOP:
+- Button to scroll to top
