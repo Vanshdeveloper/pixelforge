@@ -15,7 +15,6 @@ HEADER:
     - Twitter
     - Instagram
     - YouTube
-- Search Icon
 - Log-in Button
 
 HERO:
