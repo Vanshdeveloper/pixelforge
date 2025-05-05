@@ -12,13 +12,12 @@
     --text-color: #ffffff;
 
     --ff-oswald: "Oswald", sans-serif;
-    --ff-sasnation: 'Sasnation', sans-serif;
+    --ff-sasnation: 'Sansation', sans-serif;
 
     --transition-1: all .2s ease-in-out;
 
-    --polygon-1: polygon(18% 0, 100% 0, 100% 81%, 81% 100%, 0 100%, 0 18%);
+    --polygon-1:   polygon(19% 0, 100% 0, 100% 68%, 82% 100%, 0 100%, 0 31%);
     --polygon-2: polygon(13% 0, 100% 0%, 86% 100%, 0% 100%);
-    ;
 }
 
 body {
@@ -155,7 +154,7 @@ header {
 /*************************** MAIN ******************************/
 main {
     width: 100%;
-    margin: 81px 0 0 0;
+    /* margin: 81px 0 0 0; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +162,7 @@ main {
 
 /*************************** Section designs ******************************/
 .section-overlay {
-    border-image: linear-gradient(to right, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)) fill 1;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)) fill 1;
 }
 
 
@@ -177,14 +176,48 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#home h3 {
+    padding: 0 20px;
+    font-family: var(--ff-sasnation);
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#home button {
+    padding: 14px 30px;
+    border: none;
+    background-color: var(--secondary-color);
+    clip-path: var(--polygon-1);
+    color: var(--text-color);
+    font-family: var(--ff-oswald);
+    font-size: 20px;
+    cursor: pointer;
+    transition: var(--transition-1);
+}
+
+#home button:hover {
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
 }
 
 
 
 
-
-
 /*************************** Responsive ******************************/
+@media (max-width: 500px) {
+    .section-overlay {
+        border-image: linear-gradient(to right, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158)) fill 1;
+    }
+}
+
 @media (max-width: 975px) {
     .navbar {
         padding: 0 20px;
