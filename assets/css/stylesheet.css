@@ -16,7 +16,8 @@
 
     --transition-1: all .2s ease-in-out;
 
-    --polygon-1:   polygon(19% 0, 100% 0, 100% 68%, 82% 100%, 0 100%, 0 31%);
+    /* --polygon-1:   polygon(19% 0, 100% 0, 100% 68%, 82% 100%, 0 100%, 0 31%); */
+    --polygon-1:   polygon(9% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
     --polygon-2: polygon(13% 0, 100% 0%, 86% 100%, 0% 100%);
 }
 
@@ -158,6 +159,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background: url(../images/sections.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /*************************** Section designs ******************************/
@@ -183,21 +188,23 @@ main {
     gap: 20px;
 }
 
-#home h3 {
+#home .subtext {
     padding: 0 20px;
     font-family: var(--ff-sasnation);
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    font-weight: 700;
 }
 
 #home button {
-    padding: 14px 30px;
+    padding: 10px 30px;
     border: none;
     background-color: var(--secondary-color);
     clip-path: var(--polygon-1);
     color: var(--text-color);
     font-family: var(--ff-oswald);
+    letter-spacing: 1px;
     font-size: 20px;
     cursor: pointer;
     transition: var(--transition-1);
@@ -206,6 +213,61 @@ main {
 #home button:hover {
     background-color: var(--tertiary-color);
     color: var(--text-color);
+}
+
+
+
+/*************************** About Section *******************************/
+#about {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content {
+    width: 380px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#about .about-subtitle {
+    font-family: var(--ff-sasnation);
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#about .about-text {
+    font-family: var(--ff-sasnation);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#about .about-subtext {
+    font-family: var(--ff-sasnation);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#about button {
+    padding: 10px 20px;
+    clip-path: var(--polygon-1);
+    width: 170px;
+    background-color: var(--secondary-color);
+    font-family: var(--ff-oswald);
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    border: none;
+    transition: var(--transition-1);
+}
+
+#about button:hover {
+    background-color: var(--tertiary-color);
 }
 
 
