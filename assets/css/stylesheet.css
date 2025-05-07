@@ -161,10 +161,11 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(../images/sections.jpg);
+    /* background: url(../images/sections.jpg); */
     background-size: cover;
     background-position: center;
 }
+
 
 /*************************** Section designs ******************************/
 article {
@@ -172,7 +173,6 @@ article {
     width: 100%;
 }
 
-/*************************** Section designs ******************************/
 .section-overlay {
     border-image: linear-gradient(to right, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)) fill 1;
 }
@@ -224,7 +224,7 @@ article {
 
 
 
-/*************************** About Section *******************************/
+/*************************** About Section ********************************/
 #about {
     padding: 60px 60px;
     width: 100%;
