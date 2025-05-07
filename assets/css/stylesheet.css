@@ -8,14 +8,15 @@
 :root {
     --primary-color: #6e34db;
     --secondary-color: #f0a500;
-    --tertiary-color: #ff6f61;
+    /* --tertiary-color: #ff6f61; */
+    --tertiary-color: rgb(36, 37, 68); 
     --background-color: #1b1827;
     --text-color: #ffffff;
 
     --ff-oswald: "Oswald", sans-serif;
     --ff-sasnation: 'Sansation', sans-serif;
 
-    --transition-1: all .2s ease-in-out;
+    --transition-1: all .1s ease-in-out;
 
     /* --polygon-1:   polygon(19% 0, 100% 0, 100% 68%, 82% 100%, 0 100%, 0 31%); */
     --polygon-1: polygon(9% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
@@ -236,7 +237,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--background-color); */
 }
 
 .about-wrapper {
@@ -256,7 +256,7 @@ article {
 
 .about-content {
     width: 50%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -297,6 +297,7 @@ article {
 }
 
 #about button:hover {
+    cursor: pointer;
     background-color: var(--tertiary-color);
 }
 
@@ -304,12 +305,12 @@ article {
 
 /*************************** Tournament section ******************************/
 #tournament {
+    margin: 40px 0;
     padding: 60px 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--background-color); */
 }
 
 .tournament-wrapper {
@@ -343,7 +344,7 @@ article {
 .tournament-signup button {
     margin: 5px 0 0 0;
     width: 40%;
-    padding: 8px 0;
+    padding: 10px 0;
     clip-path: var(--polygon-1);
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -357,6 +358,7 @@ article {
 }
 
 .tournament-signup button:hover {
+    cursor: pointer;
     background-color: var(--tertiary-color);
 }
 
@@ -427,10 +429,36 @@ article {
 
 
 
+/*************************** Teams section ******************************/
+
+
+
 /*************************** Responsive ******************************/
 @media (max-width: 500px) {
     .section-overlay {
         border-image: linear-gradient(to right, rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.158)) fill 1;
+    }
+
+    #about .about-image {
+        width: 280px !important;
+    }    
+
+    .tournament-signup .tournament-subtext {
+        width: 280px !important;
+    }
+
+    .tournament-prizepool .prizepool-title {
+        margin: 35px 0 0 0;
+    }
+    
+    .tournament-prizepool .prize-amount {
+        margin: 100px 0 0 0;
+        padding: 3px 22px;
+        font-size: 16px;
+    }
+    
+    .tournament-prizepool img {
+        width: 280px;
     }
 }
 
@@ -449,7 +477,7 @@ article {
     }
 
     .about-content {
-        padding: 0 20px !important;
+        /* padding: 0 20px !important; */
         width: 100%;
     }
 
@@ -546,5 +574,44 @@ article {
 
     #about .about-content {
         padding: 0 0;
+    }
+
+    .tournament-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .tournament-signup {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .tournament-signup .tournament-subtitle {
+        padding: 0 8px;
+        font-family: var(--ff-sasnation);
+        font-size: 27px;
+        color: var(--secondary-color);
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    
+    .tournament-signup .tournament-subtext {
+        padding: 0 8px;
+        width: 333px;
+        font-family: var(--ff-sasnation);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .tournament-winners {
+        width: 100%;
+    }
+    
+    .tournament-winners .winners-title {
+        margin: 0 0 0 0;
     }
 }
