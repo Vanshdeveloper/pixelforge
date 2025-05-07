@@ -169,8 +169,11 @@ main {
 
 /*************************** Section designs ******************************/
 article {
-    max-width: 1200px;
     width: 100%;
+    background: url(../images/section-wrapper-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .section-overlay {
@@ -212,7 +215,8 @@ article {
     color: var(--text-color);
     font-family: var(--ff-oswald);
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: var(--transition-1);
 }
@@ -226,12 +230,13 @@ article {
 
 /*************************** About Section ********************************/
 #about {
+    margin: 40px 0;
     padding: 60px 60px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
 }
 
 .about-wrapper {
@@ -283,7 +288,8 @@ article {
     width: 170px;
     background-color: var(--secondary-color);
     font-family: var(--ff-oswald);
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
     letter-spacing: 1px;
     color: var(--text-color);
     border: none;
@@ -294,6 +300,130 @@ article {
     background-color: var(--tertiary-color);
 }
 
+
+
+/*************************** Tournament section ******************************/
+#tournament {
+    padding: 60px 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--background-color); */
+}
+
+.tournament-wrapper {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tournament-signup {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tournament-signup .tournament-subtitle {
+    font-family: var(--ff-sasnation);
+    font-size: 27px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.tournament-signup .tournament-subtext {
+    font-family: var(--ff-sasnation);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tournament-signup button {
+    margin: 5px 0 0 0;
+    width: 40%;
+    padding: 8px 0;
+    clip-path: var(--polygon-1);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    font-family: var(--ff-oswald);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: var(--transition-1);
+}
+
+.tournament-signup button:hover {
+    background-color: var(--tertiary-color);
+}
+
+.tournament-prizepool {
+    width: 33%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.tournament-prizepool .prizepool-title,
+.tournament-prizepool .prize-amount {
+    position: absolute;
+}
+
+.tournament-prizepool .prizepool-title {
+    margin: 60px 0 0 0;
+    font-family: var(--ff-sasnation);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.tournament-prizepool .prize-amount {
+    margin: 130px 0 0 0;
+    padding: 5px 22px;
+    background-color: var(--secondary-color);
+    font-family: var(--ff-oswald);
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.tournament-prizepool img {
+    width: 360px;
+}
+
+.tournament-winners {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tournament-winners .winners-title {
+    margin: 0 26px 0 0 ;
+    font-family: var(--ff-sasnation);
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.tournament-winners .previous-winners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.tournament-winners .previous-winners img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+}
 
 
 
