@@ -429,7 +429,48 @@ article {
 
 
 
-/*************************** Teams section ******************************/
+/*************************** Gears section ******************************/
+#gear {
+    margin: 40px 0;
+    padding: 60px 60px;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.gear-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gear-subtitle {
+    text-align: center;
+    font-family: var(--ff-oswald);
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.gears-list {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 12px;
+}
+
+.gear-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
 
 
 
