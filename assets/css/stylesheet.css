@@ -498,7 +498,7 @@ article {
 .gear-item .gear-details .gear-price {
     font-family: var(--ff-oswald);
     font-size: 22px;
-    /* color: var(--secondary-color); */
+    color: var(--secondary-color);
 }
 
 .gear-item .product-card-btns {
@@ -543,6 +543,88 @@ article {
 
 
 
+/*************************** Blog section ******************************/
+#blog {
+    margin: 40px 0;
+    padding: 60px 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blog .blog-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.blog-wrapper .blog-subtitle {
+    font-size: 29px;
+    font-family: var(--ff-oswald);
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.blog-wrapper .blog-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.blog-wrapper .blog-list .blog-item {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: url(../images/blog-1.jpg);
+    background-size: cover;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+.blog-wrapper .blog-list .blog-item:nth-child(2) {
+    background: url(../images/blog-2.jpg);
+}
+
+
+.blog-wrapper .blog-list .blog-item .blog-content {
+    padding: 0 12px;
+    height: 100%;
+    width: 100%;
+    background-color: #0a0a0adc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    gap: 4px;
+}
+
+.blog-wrapper .blog-list .blog-item .blog-content .content-head {
+    font-family: var(--ff-sasnation);
+    font-size: 22px;
+    text-align: center;
+}
+
+.blog-wrapper .blog-list .blog-item .blog-content .content-para {
+    width: 90%;
+    font-family: var(--ff-sasnation);
+    text-align: center;
+}
+
+
+
 /*************************** Responsive ******************************/
 @media (max-width: 500px) {
     #gear {
@@ -574,6 +656,10 @@ article {
     .tournament-prizepool img {
         width: 280px;
     }
+
+    .blog-wrapper .blog-list .blog-item {
+        /* width: 90% !important; */
+    }
 }
 
 @media (max-width: 850px) {
@@ -601,6 +687,14 @@ article {
 
     .about-image img {
         width: 300px !important;
+    }
+
+    #blog {
+        padding: 60px 10px;
+    }
+
+    .blog-wrapper .blog-list .blog-item {
+        width: 80%;
     }
 }
 
