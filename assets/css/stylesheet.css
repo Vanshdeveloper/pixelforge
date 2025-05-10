@@ -651,7 +651,11 @@ article {
 
     .tournament-prizepool img {
         width: 280px;
-    }
+   }
+
+   .blog-wrapper .blog-list .blog-item .blog-content {
+    background-color: #0a0a0a7e;
+}
 }
 
 @media (max-width: 850px) {
