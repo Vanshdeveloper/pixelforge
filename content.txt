@@ -78,4 +78,4 @@ FOOTER:
 - Copyright &copy; 2025 Pixel. All rights reserved.
 
 GO TO TOP:
-- Button to scroll to top
+- Button to scroll to top.

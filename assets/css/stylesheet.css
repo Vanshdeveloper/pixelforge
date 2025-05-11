@@ -704,10 +704,9 @@ article {
 /*************************** Footer ******************************/
 footer {
     margin: 10px 0;
-    padding: 10px 10px;
+    padding: 10px 20px;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -717,6 +716,71 @@ footer .footer-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
+}
+
+footer .footer-wrapper {
+    font-size: 25px;
+    font-family: var(--ff-oswald);
+    text-transform: uppercase;
+}
+
+footer .footer-wrapper p {
+    font-family: var(--ff-sasnation);
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+footer .footer-wrapper .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .footer-wrapper .social-icons a {
+    padding: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: var(--transition-1);
+}
+
+footer .footer-wrapper .social-icons a:hover {
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+footer .footer-wrapper .social-icons ion-icon {
+    font-size: 23px;
+    color: var(--secondary-color);
+}
+
+
+/*************************** Scroll to top button ******************************/
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    clip-path: var(--polygon-3);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: var(--transition-1);
+    color: var(--text-color);
+}
+
+#scroll-to-top #scroll-to-top-btn {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -767,6 +831,14 @@ footer .footer-wrapper {
 
     #contact .contact-wrapper .contact-form textarea {
         width: 90%;
+    }
+
+    footer {
+        margin: 10px 0 20px 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
     }
 }
 

@@ -29,3 +29,17 @@ document.querySelectorAll('a').forEach((aItem) => {
 });
 
 
+// Function for scroll to top button
+let scrollToTopBtn = document.getElementById('scroll-to-top');
+let scrollToTopBtna = document.getElementById('scroll-to-top-btn');
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = "flex";
+        scrollToTopBtna.style.display = "flex";
+    } else {
+        scrollToTopBtn.style.display = "none";
+        scrollToTopBta.style.display = "none";
+    }
+};
+
+
