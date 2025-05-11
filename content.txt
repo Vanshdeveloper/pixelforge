@@ -20,6 +20,7 @@ HEADER:
 HERO:
 - Welcome to Pixel
 - The ultimate gaming hub for all things esports
+- Join our thrilling gaming tournaments with amazing prizes and fierce competition.
 - Watch Live Button
 
 ABOUT:
