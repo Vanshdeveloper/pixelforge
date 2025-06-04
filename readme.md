@@ -23,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Unigine** locally, run this command on your git bash:
+To run **Pixel** locally, run this command on your git bash:
 
 
 Windows:
